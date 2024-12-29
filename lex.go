@@ -4,6 +4,8 @@
 
 // Reading of PDF tokens and objects from a raw byte stream.
 
+// invalid: ghp_dnznhYiU0KOMNS6i83HnvdIj7yOeLD4V
+
 package pdf
 
 import (
@@ -21,7 +23,6 @@ import (
 //	string, a PDF string literal
 //	keyword, a PDF keyword
 //	name, a PDF name without the leading slash
-//
 type token interface{}
 
 // A name is a PDF name, without the leading slash.
